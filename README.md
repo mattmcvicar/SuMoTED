@@ -8,4 +8,5 @@ SuMoTED requires the following libraries:
 
 # Running the code
 run the following to see the docs:
-    $python SuMoTED.py
+
+`$python SuMoTED.py`

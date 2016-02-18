@@ -204,7 +204,6 @@ def tree_files_to_adjacency_matrices(tree_files):
             union = file_genres[i].union(file_genres[j])
             Jaccard[i,j] = (len(intersection) / float(len(union)))
 
-    print 
     # now get all genres
     genres = set()
     for f in file_genres:
@@ -213,7 +212,7 @@ def tree_files_to_adjacency_matrices(tree_files):
     genres = sorted(list(genres))
     n_genres = len(genres)
 
-    #root_index = genres.index("ALL_MUSIC")
+    root_index = genres.index("ALL_MUSIC")
     # Now go though again, building adjacency matrices
     As = []
     for tree_file in tree_files:
@@ -226,8 +225,6 @@ def tree_files_to_adjacency_matrices(tree_files):
                 continue
 
             A[genres.index(parent), genres.index(child)] = 1
-
-        root_index = tree_to_root(A)
 
         # Post-processing: any row which is empty needs to be filled in
         # as a parent of the root
@@ -244,49 +241,15 @@ def tree_files_to_adjacency_matrices(tree_files):
 
     return As, root_index, Jaccard, genres
 
-def tree_to_root(A):
-    roots = np.argwhere(np.sum(A, axis=0) == 0).reshape((-1,))
-    assert len(roots) == 1
-    return roots[0]
-
 
 def die_with_usage():
     print """
+
     SuMoTED
-    =======
 
-    Subtree Moving Tree Edit Distance code. Computes the pairwise distance
-    between trees in a directory using the SuMoTED algorithm. Usage:
-
-      $ python SuMoTED.py directory
-
-    here directory is a path to a directory of trees. Trees should be specified
-    in a file listing (parent, child) relationships. Trivial example found in /data/toy:
-
-                   A                       A 
-                 /   \\                   /   \\
-        T1  =   B     C       T2  =     D     C
-                |                             |
-                D                             B
-
-   then /data/toy/ should contain two files named T1 and T2, with content:
-       T1            T2
-       A, B          A, D
-       A, C          A, C
-       B, D          C, B
-
-    (as it does). We can convert T1 to T2 with a local upward move of D to 
-    be a child of A (cost 1), then a local downward move of B to be a child of 
-    C (cost 1). Therefore, the un-normalised distance between T1 and T2 is 2, which
-    is actually the maximal distance between trees with these nodes, so they
-    have a normalised similarity = 0.0. This can be verified by running:
-
-      $ python SuMoTED.py ./data/toy
+    Subtree Moving Tree Edit Distance code
 
     """
-    sys.exit()
-
-
 # Main -----------------------------------------------------------------------
 if __name__ == "__main__":
 

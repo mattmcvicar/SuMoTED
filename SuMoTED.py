@@ -1,6 +1,14 @@
 import sys
 import numpy as np
 
+def find_all_trees(input_dir):
+
+    # find all tree files
+    tree_files = os.listdir(input_dir)
+    tree_files = [os.path.join(input_dir, t) for t in tree_files if t != '.DS_Store']
+    n_trees = len(tree_files)
+    return tree_files, n_trees
+
 
 def is_tree(A, genres, filename):
     n = A.shape[0]
@@ -140,79 +148,90 @@ def make_bush(n, root_index):
     return bush
 
 
-def find_all_trees(input_dir):
+def read_tree(tree_file):
+    labels = set()
+    T = []
+    for line in open(tree_file, 'r'):
+        line = line.strip()
+        parent, child = line.split(',')
+        parent, child = parent.strip(), child.strip()
 
-    # find all tree files
-    tree_files = os.listdir(input_dir)
-    tree_files = [os.path.join(input_dir, t) for t in tree_files if t != '.DS_Store']
-    n_trees = len(tree_files)
+        T.append([parent, child])
 
-    return tree_files, n_trees
+        labels.add(parent)
+        labels.add(child)
 
-
-def tree_files_to_adjacency_matrices(tree_files):
-
-    # first do one pass to get the complete set of labels
-    file_genres = []
-    for tree_file in tree_files:
-        file_genre = set()
-        for line in open(tree_file, 'r'):
-            line = line.strip()
-            parent, child = line.split(',')
-            parent, child = parent.strip(), child.strip()
-
-            file_genre.add(parent)
-            file_genre.add(child)
-
-        file_genres.append(file_genre)
-
+    return T, labels
+    
+def label_jaccard(labels):
     # compute the label jaccard
-    n_trees = len(tree_files)
+    n_trees = len(labels)
     Jaccard = np.zeros((n_trees, n_trees))
     for i in range(n_trees):
         for j in range(i+1, n_trees):
-            intersection = file_genres[i].intersection(file_genres[j])
-            union = file_genres[i].union(file_genres[j])
+            intersection = labels[i].intersection(labels[j])
+            union = labels[i].union(labels[j])
             Jaccard[i,j] = (len(intersection) / float(len(union)))
 
+    return Jaccard
+
+def add_missing_nodes(A, root_index):
+    # find empty rows
+    to_insert = np.argwhere(np.sum(A, axis=0) == 0).reshape((-1,))
+    if len(to_insert) > 1:
+        print '    - warning: adding ' + str(len(to_insert)) + ' nodes to ' + tree_file
+    for root in to_insert:
+        if root != root_index:
+            A[root_index, root] = 1
+    return A
+
+def tree_files_to_adjacency_matrices(tree_files):
+
+    # first get the label set for each tree
+    tree_labels = []
+    for tree_file in tree_files:
+        _, l = read_tree(tree_file)
+        tree_labels.append(l)
+
+    # so that we can compute the jaccard overlap
+    Jaccard = label_jaccard(tree_labels)
+
     # now get all genres
-    genres = set()
-    for f in file_genres:
-        genres = genres.union(f)
+    complete_labels = set()
+    for l in tree_labels:
+        complete_labels = complete_labels.union(l)
 
-    genres = sorted(list(genres))
-    n_genres = len(genres)
+    # convert to a list so we can index
+    complete_labels = sorted(list(complete_labels))
+    n_labels = len(complete_labels)
 
-    # Now go though again, building adjacency matrices
+    # Now go though the files again, building adjacency 
+    # matrices indexed by complete_labels
     As = []
     root_index = None
     for tree_file in tree_files:
-        A = np.zeros((n_genres, n_genres), dtype=int)
-        for line in open(tree_file, 'r'):
-            parent, child = line.split(',')
-            parent, child = parent.strip(), child.strip()
+        # Adjacency matrix for this tree
+        A = np.zeros((n_labels, n_labels), dtype=int)
 
-            if parent == child:
-                continue
+        # read in tree
+        T, _ = read_tree(tree_file)
 
-            A[genres.index(parent), genres.index(child)] = 1
+        # convert parent, child labels to indices
+        for parent_child in T:
+            parent, child = parent_child      
+            A[complete_labels.index(parent), complete_labels.index(child)] = 1
 
+        # get/set root index
         root_index = tree_to_root(A, root_index)
 
-        # Post-processing: any row which is empty needs to be filled in
-        # as a parent of the root
-        to_insert = np.argwhere(np.sum(A, axis=0) == 0).reshape((-1,))
-        if len(to_insert) > 1:
-            print '    - warning: adding ' + str(len(to_insert)) + ' nodes to ' + tree_file
-        for root in to_insert:
-            if root != root_index:
-                A[root_index, root] = 1
+        # Post-processing: 
+        A = add_missing_nodes(A, root_index)
 
-        # check A is a tree (and report if not)
-        is_tree(A, genres, tree_file)
+        # check A is a tree (and report if not), store
+        is_tree(A, complete_labels, tree_file)
         As.append(A)
 
-    return As, root_index, Jaccard, genres
+    return As, root_index, Jaccard, complete_labels
 
 def tree_to_root(A, root=None):
     roots = np.argwhere(np.sum(A, axis=0) == 0).reshape((-1,))

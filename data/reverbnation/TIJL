@@ -1,0 +1,251 @@
+ALL_MUSIC, rock
+ALL_MUSIC, pop
+ALL_MUSIC, jazz
+ALL_MUSIC, world
+ALL_MUSIC, electro
+ALL_MUSIC, classical
+ALL_MUSIC, other
+classical, baroque
+classical, classical guitar
+classical, piano
+classical, orchestral
+classical, opera
+classical, brass band
+classical, symphonic
+jazz, latin jazz
+jazz, vocal jazz
+jazz, reggae
+jazz, blues
+jazz, latin
+jazz, jam
+jazz, jam band
+jazz, soul
+jazz, soulful
+pop, singer songwriter
+pop, singer
+pop, songwriter
+pop, acoustic pop
+pop, indie pop
+pop, electro pop
+pop, disco
+pop, ballad
+pop, uk
+pop, easy listening
+pop, brit pop
+rock, lyrical
+rock, punk
+rock, punk rock
+rock, psychedelic
+rock, psychedelic rock
+rock, psychedelia
+rock, prog rock
+rock, metal
+rock, melodic rock
+rock, melodic
+rock, modern rock
+rock, soft rock
+rock, rock n roll
+rock, acoustic rock
+rock, acoustic
+rock, indie rock
+rock, indie
+rock, alternative rock
+rock, gothic
+rock, classic rock
+rock, garage rock
+rock, garage
+rock, hard rock
+rock, pop rock
+rock, underground
+world, traditional
+world, spiritual
+world, afro
+world, tropical
+tropical, soca
+world, folk
+world, indian
+world, celtic
+tropical, brazilian
+world, gypsy
+world, flamenco
+electro, edm
+electro, electroacoustic
+electro, electronic
+electro, electronica
+spoken word, comedy
+spoken word, hip hop
+spoken word, mc
+spoken word, rap
+other, musical theatre
+other, vocal
+other, spoken word
+other, instrumental
+other, covers
+other, film
+other, experimental
+other, oldies
+other, producer
+other, modern
+rock n roll, surf
+heavy metal, sleaze
+r&b, ska
+alternative rock, shoegaze
+garage, grime
+alternative rock, grunge
+punk, lo-fi
+punk, pop punk
+punk rock, post punk
+punk rock, new wave
+rock n roll, beat
+soul, r&b
+spoken word, poetry
+electronic, synthpop
+pop rock, power pop
+lyrical, emo
+rock, guitar
+edm, club
+club, party
+club, remix
+musical theatre, cabaret
+prog rock, post rock
+prog rock, space rock
+garage rock, glam rock
+gothic, goth
+gothic, gothic rock
+folk, country
+rock n roll, rockabilly
+spiritual, worship
+reggae, reggaeton
+reggae, bashment
+blues, blues rock
+blues, psychobilly
+metal, progressive metal
+metal, metalcore
+metal, melodic metal
+metal, alternative metal
+metal, black metal
+metal, death metal
+metal, doom
+metal, doom metal
+metal, groove
+metal, groove metal
+metal, heavy
+metal, heavy metal
+metal, power metal
+jazz, smooth jazz
+jazz, salsa
+jazz, funk
+jazz, fusion
+jazz, swing
+afro, african
+afro, afro beat
+afro, afro pop
+afro, afrobeat
+jazz, big band
+folk, folk rock
+indian, bhangra
+indian, bollywood
+reggae, dancehall
+dancehall, ragga
+edm, house
+celtic, irish traditional
+celtic, irish
+celtic, scottish
+edm, techno
+edm, bass
+edm, dj
+edm, trance
+vocal, a cappella
+electronic, downtempo
+electronic, glitch
+electronic, idm
+electronic, industrial
+edm, freestyle
+grunge, sludge
+emo, screamo
+hip hop, old school
+soul, motown
+trance, psytrance
+r&b, neo soul
+r&b, mod
+industrial, noise
+new wave, darkwave
+new wave, dark
+downtempo, lounge
+glitch, glitch hop
+techno, minimal techno
+techno, minimal
+techno, minimalist
+techno, tech
+techno, breakbeat
+funk, uk funky
+heavy metal, djent
+irish, ceilidh
+bass, dnb
+bass, dubstep
+bass, dub
+bass, bassline house
+downtempo, chillout
+downtempo, chill
+downtempo, nu-jazz
+downtempo, ambient
+country, alt.country
+soft rock, adult contemporary
+house, acid
+house, deep house
+garage rock, 2 step
+garage rock, 4x4
+funk, funky
+funk, funky breaks
+brazilian, samba
+techno, hardcore
+hardcore, uk hardcore
+hardcore, happy hardcore
+hardcore, hardcore rap
+hardcore, post hardcore
+death metal, melodic death metal
+death metal, deathcore
+country, bluegrass
+country, country rock
+country, americana
+samba, bossa nova
+house, disco house
+house, electro house
+house, funky house
+house, hard house
+house, progressive house
+house, soulful house
+house, tech house
+heavy metal, stoner rock
+worship, gospel
+hip hop, urban
+hip hop, dirty
+hip hop, dirty south
+dirty south, trap
+ambient, new age
+heavy metal, thrash
+thrash, grindcore
+americana, roots music
+hip hop, crunk
+hip hop, horrorcore
+breakbeat, big beat
+breakbeat, jungle
+industrial, ebm
+trance, hard trance
+hardcore, hardstyle
+hardcore, hard dance
+rap, gangsta rap
+hip hop, turntablism
+hardcore, breakcore
+dnb, broken beat
+acid, trip hop
+rap, uk rap
+hip hop, uk hip hop
+ambient, atmospheric
+spiritual, christian
+spiritual, inspirational
+christian, christian rap
+christian, christian rock
+christian, contemporary
+christian, contemporary christian
+americana, southern rock

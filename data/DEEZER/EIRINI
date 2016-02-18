@@ -1,0 +1,101 @@
+ALL_MUSIC,world
+ALL_MUSIC,rock
+ALL_MUSIC,dance
+ALL_MUSIC,jazz
+ALL_MUSIC,blues
+ALL_MUSIC,classical
+ALL_MUSIC,country
+ALL_MUSIC,soundtracks
+ALL_MUSIC,pop
+ALL_MUSIC,early music
+ALL_MUSIC,old school
+ALL_MUSIC,electro
+ALL_MUSIC,hip hop
+ALL_MUSIC,childrens' music
+ALL_MUSIC,chillout/trip-hop/lounge
+ALL_MUSIC,r&b/soul/funk
+ALL_MUSIC,metal/hardrock
+ALL_MUSIC,musicals
+ALL_MUSIC,modern
+ALL_MUSIC,indie pop/folk
+ALL_MUSIC,indie rock/rock pop
+indie pop/folk,indie pop
+indie rock/rock pop,indie rock
+blues,acoustic blues
+blues,electric blues
+blues,delta blues
+blues,country blues
+world,africa
+rock,alternative
+alternative,alternative country
+classical,arabesque
+world,asia
+classical,baroque
+world,australia/south pacific
+country,bluegrass
+world,india
+india,bollywood
+world,brazil
+europe,celtic
+world,central america/carribean
+blues,chicago blues
+world,china
+blues,classic blues
+classical,classical period
+r&b/soul/funk,contemporary r&b
+r&b/soul/funk,contemporary soul
+dance,dancefloor
+world,dancehall/ragga
+electro,dub
+electro,dubstep
+electro,electro pop/electro rock
+electro,electro hip hop
+world,europe
+soundtracks,film scores
+soundtracks,films/games
+europe,flamenco pop
+europe,france
+soundtracks,game scores
+r&b/soul/funk,funk
+pop,international pop
+jazz,instrumental jazz
+europe,laiko
+europe,entekhno
+europe,nederlandstalige volksmuziek
+europe,finnish folk
+childrens' music,nursery rhymes
+world,middle east
+old school,disco
+old school,old school r&b
+old school,old school soul
+europe,pizzica
+world,protest folk
+world,reggae
+world,reggaetron
+classical,renaissance
+old school,rock & roll/rockabilly
+pop,romantic
+electro,schlager
+world,ska
+childrens' music,stories
+europe,tammurriata
+europe,tarantella
+country,traditional country
+soundtracks,tv soundtracks
+world,turkish folk
+jazz,vocal jazz
+world,turkish classical
+electro,techno/house
+electro,trance
+country,urban cowboy
+europe,isklema
+hip hop,east coast
+hip hop,west coast
+hip hop,dirty south
+europe,levenslied
+europe,magreb
+europe,hungarian folk
+world,south america
+classical,opera
+hip hop,jazz hip hop
+country,honky tonk

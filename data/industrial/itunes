@@ -1,0 +1,342 @@
+ALL_MUSIC, indian
+indian, ghazals
+indian, indian folk
+indian, indian classical
+indian, sufi
+indian, bollywood
+indian, indian pop
+indian, devotional & spiritual
+indian, regional indian
+indian, telugu
+indian, tamil
+ALL_MUSIC, brazilian
+brazilian, samba
+brazilian, pagode
+brazilian, mpb
+brazilian, frevo
+brazilian, forro
+brazilian, choro
+brazilian, bossa nova
+brazilian, axe
+brazilian, baile funk
+brazilian, sertanejo
+ALL_MUSIC, reggae
+reggae, lovers rock
+reggae, dub
+reggae, roots reggae
+reggae, modern dancehall
+reggae, ska
+ALL_MUSIC, easy listening
+easy listening, lounge
+easy listening, swing
+ALL_MUSIC, j-pop
+ALL_MUSIC, alternative
+alternative, chinese alt
+alternative, korean indie
+alternative, pop punk
+alternative, college rock
+alternative, punk
+alternative, new wave
+alternative, indie rock
+alternative, grunge
+alternative, goth rock
+alternative, emo
+alternative, indie pop
+ALL_MUSIC, rock
+rock, arena rock
+rock, blues-rock
+rock, adult alternative
+rock, american trad rock
+rock, british invasion
+rock, death metal/black metal
+rock, southern rock
+rock, surf
+rock, tex-mex
+rock, roots rock
+rock, rockabilly
+rock, prog-rock/art rock
+rock, jam bands
+rock, rock & roll
+rock, psychedelic
+rock, hair metal
+rock, glam rock
+rock, metal
+rock, hard rock
+rock, korean rock
+rock, chinese rock
+ALL_MUSIC, christian & gospel
+christian & gospel, ccm
+christian & gospel, christian metal
+christian & gospel, christian pop
+christian & gospel, christian rap
+christian & gospel, christian rock
+christian & gospel, classic christian
+christian & gospel, southern gospel
+christian & gospel, traditional gospel
+christian & gospel, praise & worship
+christian & gospel, contemporary gospel
+christian & gospel, gospel
+ALL_MUSIC, vocal
+vocal, vocal pop
+vocal, trot
+vocal, traditional pop
+vocal, standards
+ALL_MUSIC, enka
+ALL_MUSIC, anime
+ALL_MUSIC, arabic
+arabic, north african
+arabic, khaleeji
+arabic, islamic
+arabic, arabic pop
+ALL_MUSIC, comedy
+comedy, novelty
+comedy, standup comedy
+ALL_MUSIC, blues
+blues, acoustic blues
+blues, classic blues
+blues, chicago blues
+blues, contemporary blues
+blues, country blues
+blues, delta blues
+blues, electric blues
+ALL_MUSIC, classical
+classical, cello
+classical, chamber music
+classical, piano
+classical, violin
+classical, opera
+classical, baroque era
+classical, renaissance
+classical, avant-garde
+classical, percussion
+classical, high classical
+classical, wedding music
+classical, romantic era
+classical, medieval era
+classical, impressionist
+classical, modern era
+classical, minimalism
+classical, choral
+classical, chant
+classical, early music
+classical, classical crossover
+classical, opera
+classical, oratorio
+classical, contemporary era
+classical, electronic classical
+classical, cantata
+classical, art song
+classical, solo instrumental
+classical, brass & woodwinds
+classical, guitar
+classical, sacred
+ALL_MUSIC, children's music
+children's music, lullabies
+children's music, sing-along
+children's music, stories
+ALL_MUSIC, electronic
+electronic, ambient
+electronic, downtempo
+electronic, electronica
+electronic, idm/experimental
+electronic, industrial
+electronic, dubstep
+electronic, bass
+ALL_MUSIC, country
+country, urban cowboy
+country, traditional country
+country, traditional bluegrass
+country, outlaw country
+country, country gospel
+country, honky tonk
+country, thai country
+country, alternative country
+country, contemporary bluegrass
+country, contemporary country
+country, americana
+country, bluegrass
+ALL_MUSIC, holiday
+holiday, christmas: r&b
+holiday, christmas: pop
+holiday, christmas: modern
+holiday, christmas: jazz
+holiday, christmas: classical
+holiday, christmas: classic
+holiday, christmas: children's
+holiday, christmas
+holiday, thanksgiving
+holiday, chanukah
+holiday, holiday: other
+holiday, christmas: rock
+holiday, christmas: religious
+holiday, easter
+holiday, halloween
+ALL_MUSIC, orchestral
+ALL_MUSIC, marching
+ALL_MUSIC, chinese
+chinese, chinese flute
+chinese, chinese opera
+chinese, chinese orchestral
+chinese, chinese regional folk
+chinese, chinese classical
+chinese, chinese strings
+chinese, taiwanese folk
+chinese, tibetan native music
+ALL_MUSIC, jazz
+jazz, latin jazz
+jazz, big band
+jazz, bop
+jazz, cool
+jazz, trad jazz
+jazz, fusion
+jazz, hard bop
+jazz, vocal jazz
+jazz, avant-garde jazz
+jazz, contemporary jazz
+jazz, ragtime
+jazz, mainstream jazz
+jazz, smooth jazz
+jazz, crossover jazz
+jazz, dixieland
+ALL_MUSIC, singer/songwriter
+singer/songwriter, contemporary folk
+singer/songwriter, alternative folk
+singer/songwriter, folk-rock
+singer/songwriter, contemporary singer/songwriter
+singer/songwriter, traditional folk
+singer/songwriter, new acoustic
+ALL_MUSIC, new age
+new age, nature
+new age, relaxation
+new age, travel
+new age, environmental
+new age, healing
+new age, meditation
+new age, yoga
+ALL_MUSIC, latino
+latino, baladas y boleros
+latino, alternative & rock in spanish
+latino, regional mexicano
+latino, salsa y tropical
+latino, pop in spanish
+latino, contemporary latin
+latino, latin urban
+latino, raices
+ALL_MUSIC, r&b/soul
+r&b/soul, quiet storm
+r&b/soul, soul
+r&b/soul, funk
+r&b/soul, neo-soul
+r&b/soul, disco
+r&b/soul, contemporary r&b
+r&b/soul, doo wop
+r&b/soul, motown
+ALL_MUSIC, pop
+pop, pop/rock
+pop, britpop
+pop, adult contemporary
+pop, thai pop
+pop, k-pop
+pop, teen pop
+pop, soft rock
+pop, pinoy pop
+pop, original pilipino music
+pop, tai-pop
+pop, malaysian pop
+pop, korean folk-pop
+pop, mandopop
+pop, c-pop
+pop, cantopop/hk-pop
+pop, oldies
+pop, tribute
+pop, manilla sound
+pop, indo pop
+ALL_MUSIC, dance
+dance, techno
+dance, trance
+dance, hardcore
+dance, garage
+dance, exercise
+dance, breakbeat
+dance, jungle/drum'n'bass
+dance, house
+ALL_MUSIC, soundtrack
+soundtrack, foreign cinema
+soundtrack, musicals
+soundtrack, tv soundtrack
+soundtrack, original score
+soundtrack, sound effects
+ALL_MUSIC, world
+world, turkish
+world, europe
+world, asia
+world, south africa
+world, japan
+world, australia
+world, africa
+world, france
+world, hawaii
+world, north america
+world, zydeco
+world, worldbeat
+world, caribbean
+world, south america
+world, iberia
+world, russian
+world, tango
+world, fado
+world, flamenco
+world, afro-beat
+world, russian chanson
+world, dini
+world, halk
+world, sanat
+world, dangdut
+world, indonesian religious
+world, cajun
+world, afro-pop
+world, calypso
+world, soca
+world, afrikaans
+world, arabesque
+world, israeli
+world, farsi
+world, japanese pop
+world, klezmer
+world, drinking songs
+world, traditional celtic
+world, contemporary celtic
+world, celtic
+world, celtic folk
+world, polka
+ALL_MUSIC, hip-hop/rap
+hip-hop/rap, dirty south
+hip-hop/rap, alternative rap
+hip-hop/rap, west coast rap
+hip-hop/rap, rap
+hip-hop/rap, underground rap
+hip-hop/rap, latin rap
+hip-hop/rap, old school rap
+hip-hop/rap, hardcore rap
+hip-hop/rap, hip-hop
+hip-hop/rap, east coast rap
+hip-hop/rap, gangsta rap
+hip-hop/rap, chinese hip-hop
+hip-hop/rap, korean hip-hop
+hip-hop/rap, uk hip-hop
+ALL_MUSIC, kayokyoku
+ALL_MUSIC, folk
+ALL_MUSIC, fitness & workout
+ALL_MUSIC, instrumental
+ALL_MUSIC, karaoke
+ALL_MUSIC, german folk
+ALL_MUSIC, korean
+korean, korean trad song
+korean, korean classical
+korean, korean trad theater
+korean, korean trad instrumental
+ALL_MUSIC, christian & gospel
+ALL_MUSIC, spoken word
+ALL_MUSIC, disney
+ALL_MUSIC, french pop
+ALL_MUSIC, german pop

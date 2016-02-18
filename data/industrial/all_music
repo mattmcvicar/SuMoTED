@@ -1,0 +1,1062 @@
+ALL_MUSIC, comedy/spoken
+comedy/spoken, spoken comedy
+spoken comedy, sketch comedy
+spoken comedy, latin comedy
+spoken comedy, prank calls
+spoken comedy, blue humor
+spoken comedy, observational humor
+spoken comedy, political comedy
+spoken comedy, ethnic comedy
+spoken comedy, gay comedy
+spoken comedy, christian comedy
+spoken comedy, morning radio
+spoken comedy, standup comedy
+spoken comedy, comedy
+comedy/spoken, musical comedy
+musical comedy, novelty
+musical comedy, satire
+musical comedy, music comedy
+musical comedy, shock jock
+musical comedy, comedy rap
+musical comedy, comedy rock
+musical comedy, country comedy
+musical comedy, song parody
+comedy/spoken, spoken word
+spoken word, instructional
+spoken word, speeches
+spoken word, radio plays
+spoken word, radio shows
+spoken word, beat poetry
+spoken word, poetry
+spoken word, drama
+spoken word, fantasy
+spoken word, interview
+spoken word, erotica
+spoken word, documentary
+ALL_MUSIC, reggae
+reggae, sound system
+reggae, smooth reggae
+reggae, nyahbinghi
+reggae, soca
+reggae, ragga
+reggae, caribbean traditions
+reggae, dub
+reggae, dj/toasting
+reggae, reggae-pop
+reggae, political reggae
+reggae, roots reggae
+reggae, rocksteady
+reggae, ska
+reggae, dub poetry
+reggae, bluebeat
+reggae, lovers rock
+reggae, dancehall
+reggae, contemporary reggae
+ALL_MUSIC, latin
+latin, tropical
+tropical, mini jazz
+tropical, compas
+tropical, merenhouse
+tropical, merengue
+tropical, rumba
+tropical, lambada
+tropical, beguine vide
+tropical, beguine
+tropical, salsa
+tropical, sonero
+tropical, bachata
+tropical, beguine moderne
+tropical, cuban pop
+latin, cuban traditions
+cuban traditions, guaguanco
+cuban traditions, danzon
+cuban traditions, charanga
+cuban traditions, grupero
+cuban traditions, afro-cuban
+cuban traditions, modern son
+cuban traditions, changui
+cuban traditions, timba
+cuban traditions, son
+latin, mexican traditions
+mexican traditions, sonidero
+mexican traditions, tejano
+mexican traditions, mariachi
+mexican traditions, duranguense
+mexican traditions, cumbia
+mexican traditions, plena
+mexican traditions, ranchera
+mexican traditions, norteno
+latin, central american traditions
+central american traditions, panamanian
+central american traditions, honduran
+central american traditions, nicaraguan
+central american traditions, guatemalan
+central american traditions, salvadoran
+latin, latin america
+latin america, cuatro
+latin america, nueva cancion
+latin america, alternative latin
+latin america, pachanga
+latin america, corrido
+latin america, latin dance
+latin america, cha-cha
+latin america, boogaloo
+latin america, latin soul
+latin america, banda
+latin america, puerto rican traditions
+latin america, latin big band
+latin america, bomba
+latin america, trova
+latin america, afro-colombian
+latin america, latin folk
+latin america, new york salsa
+latin america, bolero
+latin america, conjunto
+latin america, nueva trova
+latin america, choro
+latin america, onda grupera
+latin america, latin pop
+latin america, mambo
+ALL_MUSIC, stage & screen
+stage & screen, cast recordings
+cast recordings, show tunes
+cast recordings, musicals
+cast recordings, musical theater
+stage & screen, film music
+film music, original score
+film music, movie themes
+film music, anime music
+film music, spy music
+film music, soundtracks
+film music, blaxploitation
+stage & screen, sound effects
+sound effects, occasion-based effects
+sound effects, bird calls
+stage & screen, television music
+television music, video game music
+television music, sports anthems
+television music, tv music
+television music, tv soundtracks
+television music, cartoon music
+ALL_MUSIC, classical
+classical, concerto
+classical, ballet
+classical, choral
+classical, marches
+classical, vocal music
+classical, opera
+classical, orchestral
+classical, film score
+classical, chamber music
+classical, show/musical
+classical, electronic/computer music
+classical, symphony
+classical, miscellaneous (classical)
+classical, classical crossover
+classical, keyboard
+classical, avant-garde music
+classical, band music
+ALL_MUSIC, children's
+children's, children's songwriters
+children's, educational
+children's, nursery rhymes
+children's, children's pop
+children's, sing-alongs
+children's, children's folk
+children's, children's rock
+children's, fairy tales
+children's, lullabies
+children's, stories
+ALL_MUSIC, electronic
+electronic, jungle/drum'n'bass
+jungle/drum'n'bass, broken beat
+jungle/drum'n'bass, drill'n'bass
+jungle/drum'n'bass, ambient breakbeat
+jungle/drum'n'bass, dubstep
+jungle/drum'n'bass, acid jazz
+jungle/drum'n'bass, industrial drum'n'bass
+jungle/drum'n'bass, experimental jungle
+electronic, electronica
+electronica, nu breaks
+electronica, clubjazz
+electronica, breakcore
+electronica, hi-nrg
+electronica, funky breaks
+electronica, big beat
+electronica, edm
+electronica, garage rap/grime
+electronica, newbeat
+electronica, baile funk
+electronic, house
+house, 2-step/british garage
+house, tech-house
+house, left-field house
+house, jazz-house
+house, chicago house
+house, microhouse
+house, ambient house
+house, progressive house
+house, garage
+house, tribal house
+house, acid house
+electronic, trance
+trance, goa trance
+trance, progressive trance
+electronic, techno
+techno, techno-dub
+techno, electro-jazz
+techno, techno bass
+techno, experimental electro
+techno, minimal techno
+techno, ambient techno
+techno, experimental techno
+techno, neo-electro
+techno, acid techno
+techno, hardcore techno
+techno, rave
+techno, detroit techno
+techno, electro
+techno, electro-techno
+electronic, experimental electronic
+experimental electronic, experimental dub
+experimental electronic, microsound
+experimental electronic, electro-acoustic
+experimental electronic, glitch
+experimental electronic, idm
+experimental electronic, chiptunes
+electronic, downtempo
+downtempo, downbeat
+downtempo, illbient
+downtempo, ambient dub
+downtempo, dark ambient
+downtempo, trip-hop
+downtempo, experimental ambient
+ALL_MUSIC, jazz
+jazz, jazz instrument
+jazz instrument, vibraphone/marimba jazz
+jazz instrument, saxophone jazz
+jazz instrument, trombone jazz
+jazz instrument, guitar jazz
+jazz instrument, piano jazz
+jazz instrument, trumpet jazz
+jazz, bop
+bop, bop vocals
+jazz, contemporary jazz
+jazz, fusion
+fusion, modern jazz
+fusion, jazz-pop
+fusion, straight-ahead jazz
+fusion, smooth jazz
+fusion, jazz-rock
+fusion, crossover jazz
+fusion, electric jazz
+fusion, free funk
+jazz, free jazz
+free jazz, modern free
+free jazz, m-base
+free jazz, avant-garde jazz
+free jazz, early creative
+free jazz, modern creative
+free jazz, third stream
+jazz, big band/swing
+big band/swing, progressive big band
+big band/swing, progressive jazz
+big band/swing, sweet bands
+big band/swing, continental jazz
+big band/swing, british dance bands
+big band/swing, experimental big band
+big band/swing, orchestral jazz
+big band/swing, big band
+big band/swing, ballroom dance
+big band/swing, society dance band
+big band/swing, swing
+big band/swing, jive
+big band/swing, modern big band
+big band/swing, dance bands
+jazz, new orleans/classic jazz
+new orleans/classic jazz, novelty ragtime
+new orleans/classic jazz, chicago jazz
+new orleans/classic jazz, hot jazz
+new orleans/classic jazz, stride
+new orleans/classic jazz, mainstream jazz
+new orleans/classic jazz, boogie-woogie
+new orleans/classic jazz, early jazz
+new orleans/classic jazz, dixieland
+new orleans/classic jazz, new orleans brass bands
+new orleans/classic jazz, new orleans jazz revival
+new orleans/classic jazz, new orleans jazz
+new orleans/classic jazz, ragtime
+new orleans/classic jazz, trad jazz
+jazz, hard bop
+hard bop, modal music
+hard bop, neo-bop
+hard bop, post-bop
+hard bop, standards
+jazz, latin jazz/world fusion
+latin jazz/world fusion, brazilian jazz
+latin jazz/world fusion, world fusion
+latin jazz/world fusion, afro-cuban jazz
+latin jazz/world fusion, cuban jazz
+latin jazz/world fusion, african jazz
+latin jazz/world fusion, latin jazz
+jazz, soul jazz/groove
+soul jazz/groove, jazz-funk
+soul jazz/groove, soul jazz
+jazz, cool
+cool, chamber jazz
+cool, west coast jazz
+ALL_MUSIC, vocal
+vocal, vocalese
+vocal, acappella
+vocal, harmony vocal group
+vocal, vocal pop
+vocal, music hall
+vocal, vaudeville
+vocal, early jazz vocals
+vocal, vocal jazz
+vocal, traditional pop
+vocal, barbershop quartet
+vocal, composer songbook
+vocal, modern jazz vocals
+vocal, tin pan alley pop
+vocal, contemporary jazz vocals
+vocal, torch songs
+vocal, cabaret
+vocal, american popular song
+ALL_MUSIC, easy listening
+easy listening, exotica/lounge
+exotica/lounge, lounge
+exotica/lounge, space age pop
+exotica/lounge, exotica
+ALL_MUSIC, new age
+new age, space
+new age, neo-classical
+new age, progressive alternative
+new age, harp/new age
+new age, guitar/new age
+new age, new age tone poems
+new age, techno-tribal
+new age, ethnic fusion
+new age, nature
+new age, environmental
+new age, healing
+new age, meditation/relaxation
+new age, flute/new age
+new age, self-help & development
+new age, keyboard/synthesizer/new age
+new age, relaxation
+new age, adult alternative
+new age, piano/new age
+new age, progressive electronic
+new age, spiritual
+new age, contemporary instrumental
+new age, solo instrumental
+new age, ambient
+new age, mystical minimalism
+ALL_MUSIC, r&b
+r&b, early r&b
+early r&b, r&b instrumental
+early r&b, motown
+early r&b, doo wop
+early r&b, new orleans r&b
+r&b, soul
+soul, go-go
+soul, southern soul
+soul, pop-soul
+soul, deep funk
+soul, northern soul
+soul, country soul
+soul, memphis soul
+soul, smooth soul
+soul, philly soul
+soul, brown-eyed soul
+soul, blue-eyed soul
+soul, psychedelic soul
+soul, uptown soul
+soul, funk
+soul, beach
+soul, deep soul
+soul, chicago soul
+r&b, contemporary r&b
+contemporary r&b, adult contemporary r&b
+contemporary r&b, italo disco
+contemporary r&b, euro-disco
+contemporary r&b, new jack swing
+contemporary r&b, freestyle
+contemporary r&b, post-disco
+contemporary r&b, disco
+contemporary r&b, quiet storm
+contemporary r&b, retro-soul
+contemporary r&b, urban
+contemporary r&b, alternative r&b
+contemporary r&b, deep funk revival
+contemporary r&b, neo-soul
+ALL_MUSIC, avant-garde
+avant-garde, modern composition
+modern composition, musique actuelle
+modern composition, microtonal
+modern composition, tape music
+modern composition, musique concrete
+modern composition, computer music
+modern composition, minimalism
+modern composition, post-minimalism
+modern composition, experimental
+avant-garde, improvised music
+improvised music, structured improvisation
+improvised music, creative orchestra
+improvised music, free improvisation
+improvised music, improvisation
+avant-garde, sound art
+sound art, noise
+sound art, process-generated
+sound art, conceptual art
+sound art, radio works
+sound art, sound collage
+sound art, mixed media
+sound art, sound sculpture
+ALL_MUSIC, pop/rock
+pop/rock, foreign language rock
+foreign language rock, french pop
+foreign language rock, japanese rock
+foreign language rock, okinawan pop
+foreign language rock, indipop
+foreign language rock, c-pop
+foreign language rock, thai pop
+foreign language rock, rock en espanol
+foreign language rock, j-pop
+foreign language rock, scandinavian pop
+foreign language rock, liedermacher
+foreign language rock, dutch pop
+foreign language rock, aboriginal rock
+foreign language rock, hong kong pop
+foreign language rock, kayokyoku
+foreign language rock, eastern european pop
+foreign language rock, korean rock
+foreign language rock, korean pop
+foreign language rock, french rock
+foreign language rock, nouvelle chanson
+foreign language rock, austropop
+foreign language rock, chinese pop/rock
+foreign language rock, asian pop
+foreign language rock, taiwanese pop
+foreign language rock, italian pop
+pop/rock, punk/new wave
+punk/new wave, straight-edge
+punk/new wave, british punk
+punk/new wave, l.a. punk
+punk/new wave, power pop
+punk/new wave, new york punk
+punk/new wave, new romantic
+punk/new wave, punk
+punk/new wave, synth pop
+punk/new wave, oi!
+punk/new wave, new wave
+punk/new wave, post-punk
+punk/new wave, hardcore punk
+punk/new wave, garage rock revival
+punk/new wave, proto-punk
+punk/new wave, mod revival
+punk/new wave, anarchist punk
+punk/new wave, sophisti-pop
+punk/new wave, american punk
+punk/new wave, no wave
+punk/new wave, ska revival
+pop/rock, dance
+dance, teen pop
+dance, club/dance
+dance, dance-rock
+dance, euro-dance
+dance, dance-pop
+dance, latin freestyle
+pop/rock, art-rock/experimental
+art-rock/experimental, experimental rock
+art-rock/experimental, neo-prog
+art-rock/experimental, noise-rock
+art-rock/experimental, prog-rock
+art-rock/experimental, art rock
+art-rock/experimental, canterbury scene
+art-rock/experimental, avant-prog
+art-rock/experimental, kraut rock
+pop/rock, british invasion
+british invasion, freakbeat
+british invasion, merseybeat
+british invasion, british blues
+british invasion, early british pop/rock
+british invasion, skiffle
+british invasion, mod
+pop/rock, soft rock
+pop/rock, europop
+europop, euro-pop
+europop, swedish pop/rock
+europop, euro-rock
+europop, schlager
+pop/rock, alternative/indie rock
+alternative/indie rock, new zealand rock
+alternative/indie rock, riot grrrl
+alternative/indie rock, garage punk
+alternative/indie rock, britpop
+alternative/indie rock, punk revival
+alternative/indie rock, retro swing
+alternative/indie rock, lo-fi
+alternative/indie rock, post-grunge
+alternative/indie rock, post-hardcore
+alternative/indie rock, sadcore
+alternative/indie rock, skatepunk
+alternative/indie rock, paisley underground
+alternative/indie rock, emo-pop
+alternative/indie rock, funk metal
+alternative/indie rock, grunge
+alternative/indie rock, neo-psychedelia
+alternative/indie rock, cocktail
+alternative/indie rock, goth rock
+alternative/indie rock, american underground
+alternative/indie rock, shoegaze
+alternative/indie rock, psychobilly
+alternative/indie rock, free folk
+alternative/indie rock, ska-punk
+alternative/indie rock, screamo
+alternative/indie rock, alternative country-rock
+alternative/indie rock, indie electronic
+alternative/indie rock, punk-pop
+alternative/indie rock, adult alternative pop/rock
+alternative/indie rock, space rock
+alternative/indie rock, industrial dance
+alternative/indie rock, emo
+alternative/indie rock, indie folk
+alternative/indie rock, punk blues
+alternative/indie rock, madchester
+alternative/indie rock, c-86
+alternative/indie rock, slowcore
+alternative/indie rock, cowpunk
+alternative/indie rock, electro-industrial
+alternative/indie rock, chamber pop
+alternative/indie rock, third wave ska revival
+alternative/indie rock, math rock
+alternative/indie rock, alternative dance
+alternative/indie rock, alternative pop/rock
+alternative/indie rock, industrial
+alternative/indie rock, british trad rock
+alternative/indie rock, indie rock
+alternative/indie rock, twee pop
+alternative/indie rock, college rock
+alternative/indie rock, new wave/post-punk revival
+alternative/indie rock, dream pop
+alternative/indie rock, noise pop
+alternative/indie rock, darkwave
+alternative/indie rock, queercore
+alternative/indie rock, neo-glam
+alternative/indie rock, post-rock
+alternative/indie rock, ambient pop
+alternative/indie rock, indie pop
+alternative/indie rock, jangle pop
+alternative/indie rock, shibuya-kei
+pop/rock, heavy metal
+heavy metal, industrial metal
+heavy metal, guitar virtuoso
+heavy metal, goth metal
+heavy metal, stoner metal
+heavy metal, black metal
+heavy metal, new wave of british heavy metal
+heavy metal, post-metal
+heavy metal, nu metal
+heavy metal, alternative metal
+heavy metal, death metal
+heavy metal, rap-metal
+heavy metal, neo-classical metal
+heavy metal, scandinavian metal
+heavy metal, british metal
+heavy metal, power metal
+heavy metal, grindcore
+heavy metal, symphonic black metal
+heavy metal, pop-metal
+heavy metal, speed/thrash metal
+heavy metal, progressive metal
+heavy metal, hair metal
+heavy metal, metalcore
+heavy metal, doom metal
+heavy metal, sludge metal
+heavy metal, punk metal
+pop/rock, folk/country rock
+folk/country rock, country-rock
+folk/country rock, folk-pop
+folk/country rock, british folk-rock
+folk/country rock, folk-rock
+pop/rock, hard rock
+hard rock, boogie rock
+hard rock, southern rock
+hard rock, glam rock
+hard rock, detroit rock
+hard rock, album rock
+hard rock, aussie rock
+hard rock, glitter
+hard rock, rap-rock
+hard rock, arena rock
+pop/rock, singer/songwriter
+singer/songwriter, alternative singer/songwriter
+singer/songwriter, contemporary singer/songwriter
+pop/rock, rock & roll/roots
+rock & roll/roots, american trad rock
+rock & roll/roots, rock & roll
+rock & roll/roots, frat rock
+rock & roll/roots, pub rock
+rock & roll/roots, surf revival
+rock & roll/roots, bar band
+rock & roll/roots, hot rod
+rock & roll/roots, rockabilly revival
+rock & roll/roots, swamp pop
+rock & roll/roots, retro-rock
+rock & roll/roots, surf
+rock & roll/roots, hot rod revival
+rock & roll/roots, jam bands
+rock & roll/roots, rockabilly
+rock & roll/roots, blues-rock
+rock & roll/roots, heartland rock
+rock & roll/roots, roots rock
+rock & roll/roots, tex-mex
+rock & roll/roots, instrumental rock
+rock & roll/roots, latin rock
+pop/rock, psychedelic/garage
+psychedelic/garage, garage rock
+psychedelic/garage, psychedelic pop
+psychedelic/garage, british psychedelia
+psychedelic/garage, acid folk
+psychedelic/garage, acid rock
+psychedelic/garage, obscuro
+ALL_MUSIC, rap
+rap, pop-rap
+pop-rap, dirty south
+pop-rap, bass music
+pop-rap, g-funk
+pop-rap, southern rap
+pop-rap, gangsta rap
+pop-rap, party rap
+rap, reggaeton/latin rap
+reggaeton/latin rap, reggaeton
+reggaeton/latin rap, latin rap
+rap, hip-hop/urban
+hip-hop/urban, east coast rap
+hip-hop/urban, dirty rap
+hip-hop/urban, hardcore rap
+hip-hop/urban, golden age
+hip-hop/urban, west coast rap
+hip-hop/urban, midwest rap
+hip-hop/urban, old-school rap
+rap, alternative rap
+alternative rap, underground rap
+alternative rap, british rap
+alternative rap, turntablism
+alternative rap, political rap
+alternative rap, left-field hip-hop
+alternative rap, french rap
+alternative rap, jazz-rap
+ALL_MUSIC, country
+country, contemporary country
+contemporary country, new traditionalist
+contemporary country, contemporary bluegrass
+contemporary country, neo-traditionalist country
+country, western swing
+western swing, western swing revival
+country, alternative country
+alternative country, alt-country
+alternative country, americana
+country, honky tonk
+honky tonk, bakersfield sound
+honky tonk, truck driving country
+country, progressive country
+progressive country, rodeo
+progressive country, progressive bluegrass
+progressive country, outlaw country
+progressive country, country-folk
+country, traditional country
+traditional country, square dance
+traditional country, old-timey
+traditional country, bluegrass
+traditional country, country gospel
+traditional country, jug band
+traditional country, cowboy
+traditional country, close harmony
+traditional country, early country
+traditional country, bluegrass-gospel
+traditional country, country boogie
+traditional country, string bands
+traditional country, traditional bluegrass
+traditional country, yodeling
+traditional country, instrumental country
+country, country-pop
+country-pop, urban cowboy
+country-pop, nashville sound/countrypolitan
+ALL_MUSIC, international
+international, jewish music
+jewish music, klezmer
+jewish music, chassidic
+jewish music, jewish folk
+jewish music, american jewish pop
+jewish music, hebrew
+international, celtic/british isles
+celtic/british isles, country & irish
+celtic/british isles, celtic
+celtic/british isles, celtic pop
+celtic/british isles, celtic folk
+celtic/british isles, drinking songs
+celtic/british isles, welsh
+celtic/british isles, pipe bands
+celtic/british isles, scottish country dance
+celtic/british isles, celtic rock
+celtic/british isles, celtic new age
+celtic/british isles, british
+celtic/british isles, contemporary celtic
+celtic/british isles, pibroch
+celtic/british isles, celtic gospel
+celtic/british isles, traditional irish folk
+celtic/british isles, scottish folk
+celtic/british isles, traditional celtic
+celtic/british isles, celtic fusion
+celtic/british isles, breton
+international, nordic traditions
+nordic traditions, danish
+nordic traditions, sami
+nordic traditions, icelandic
+nordic traditions, joik
+nordic traditions, swedish folk
+nordic traditions, scandinavian
+nordic traditions, norwegian
+nordic traditions, finnish folk
+nordic traditions, norwegian folk
+nordic traditions, yodel
+international, southeast asian traditions
+southeast asian traditions, bornean
+southeast asian traditions, khmer dance
+southeast asian traditions, vietnamese
+southeast asian traditions, siamese
+southeast asian traditions, philippine
+southeast asian traditions, malaysian
+southeast asian traditions, papua new guinea
+southeast asian traditions, laotian
+southeast asian traditions, kulintang
+southeast asian traditions, cambodian
+southeast asian traditions, myanmarian
+southeast asian traditions, thai
+international, central european traditions
+central european traditions, czech
+central european traditions, bavarian
+central european traditions, bava
+central european traditions, moravian
+central european traditions, german
+central european traditions, slovakian
+central european traditions, polish
+central european traditions, austrian
+central european traditions, volksmusik
+central european traditions, hungarian folk
+central european traditions, alpine
+international, south american traditions
+south american traditions, argentinian folk
+south american traditions, chilean
+south american traditions, jibaro
+south american traditions, uruguayan
+south american traditions, frevo
+south american traditions, peruvian
+south american traditions, quechua
+south american traditions, peruvian folk
+south american traditions, native south american
+south american traditions, vallenato
+south american traditions, ecuadorian
+south american traditions, bolivian
+south american traditions, incan
+south american traditions, tango
+south american traditions, paraguayan
+south american traditions, venezuelan
+south american traditions, afro-peruvian
+south american traditions, colombian
+south american traditions, andean folk
+international, oceanic traditions
+oceanic traditions, hawaiian
+oceanic traditions, solomon islands
+oceanic traditions, micronesian
+oceanic traditions, samoan
+oceanic traditions, slack-key guitar
+oceanic traditions, tongan
+oceanic traditions, tahitian
+oceanic traditions, hawaiian pop
+oceanic traditions, polynesian
+oceanic traditions, australian
+oceanic traditions, melanesian
+oceanic traditions, pacific islands
+oceanic traditions, new zealand
+international, north american traditions
+north american traditions, cajun
+north american traditions, quebecois
+north american traditions, zydeco
+north american traditions, native american
+north american traditions, canadian
+international, indonesian traditions
+indonesian traditions, balinese
+indonesian traditions, gamelan
+indonesian traditions, kecak
+indonesian traditions, javanese
+indonesian traditions, sumatran
+indonesian traditions, jaipongan
+indonesian traditions, macapat poetry
+international, japanese traditions
+japanese traditions, noh
+japanese traditions, rakugo
+japanese traditions, okinawan traditional
+japanese traditions, buddhist
+japanese traditions, japanese orchestral
+japanese traditions, traditional japanese
+japanese traditions, shinto
+japanese traditions, kabuki
+japanese traditions, enka
+international, russian traditions
+russian traditions, russian folk
+international, worldbeat
+worldbeat, ritual music
+worldbeat, folk dance
+worldbeat, international pop
+worldbeat, international folk
+worldbeat, neo-traditional
+worldbeat, quadrille
+worldbeat, chants
+worldbeat, international fusion
+worldbeat, folklore
+worldbeat, pan-global
+worldbeat, inuit
+worldbeat, ceremonial
+international, asian traditions
+asian traditions, asian folk
+asian traditions, throat singing
+international, north/east asian traditions
+north/east asian traditions, korean
+north/east asian traditions, traditional korean
+north/east asian traditions, mongolian
+north/east asian traditions, trot
+north/east asian traditions, siberian
+international, western european traditions
+western european traditions, portuguese
+western european traditions, french chanson
+western european traditions, swiss folk
+western european traditions, italian music
+western european traditions, spanish folk
+western european traditions, tyrolean
+western european traditions, french folk
+western european traditions, basque
+western european traditions, french
+western european traditions, contemporary flamenco
+western european traditions, andalus classical
+western european traditions, dutch
+western european traditions, musette
+western european traditions, flamenco
+western european traditions, fado
+western european traditions, azorean
+western european traditions, italian folk
+western european traditions, belgian
+international, indian subcontinent traditions
+indian subcontinent traditions, dhrupad
+indian subcontinent traditions, bhangra
+indian subcontinent traditions, pakistani
+indian subcontinent traditions, qawwali
+indian subcontinent traditions, indian classical
+indian subcontinent traditions, bangladeshi
+indian subcontinent traditions, mantras
+indian subcontinent traditions, indian
+indian subcontinent traditions, bengali
+indian subcontinent traditions, nepalese
+indian subcontinent traditions, indian pop
+indian subcontinent traditions, giddha
+indian subcontinent traditions, bollywood
+indian subcontinent traditions, raga
+indian subcontinent traditions, carnatic
+international, middle eastern traditions
+middle eastern traditions, afghanistan
+middle eastern traditions, israeli
+middle eastern traditions, kuwaiti
+middle eastern traditions, palestinian
+middle eastern traditions, iraqi
+middle eastern traditions, iran-classical
+middle eastern traditions, egyptian
+middle eastern traditions, turkish
+middle eastern traditions, islamic
+middle eastern traditions, armenian
+middle eastern traditions, belly dancing
+middle eastern traditions, kurdish
+middle eastern traditions, iranian
+middle eastern traditions, traditional middle eastern folk
+middle eastern traditions, sha'abi
+middle eastern traditions, apala
+middle eastern traditions, saudi arabian
+middle eastern traditions, yemenite
+middle eastern traditions, sufi
+middle eastern traditions, al-jil
+middle eastern traditions, middle eastern pop
+middle eastern traditions, persian
+middle eastern traditions, lebanese
+middle eastern traditions, arabic
+middle eastern traditions, syrian
+international, central/west asian traditions
+central/west asian traditions, kazakhstani
+central/west asian traditions, georgian choir
+central/west asian traditions, dagestani
+central/west asian traditions, tibetan
+central/west asian traditions, georgian
+central/west asian traditions, uzbekistani
+central/west asian traditions, tajik
+central/west asian traditions, azerbaijani
+central/west asian traditions, tuvan
+central/west asian traditions, armenian folk
+international, african traditions
+african traditions, north african
+african traditions, mbira
+african traditions, african folk
+african traditions, afro-beat
+african traditions, highlife
+african traditions, makossa
+african traditions, afro-pop
+african traditions, east african
+african traditions, juju
+african traditions, desert blues
+african traditions, mbuti choral
+african traditions, west african
+african traditions, pygmy
+african traditions, central african
+african traditions, southern african
+african traditions, south african pop
+international, chinese traditions
+chinese traditions, traditional chinese
+chinese traditions, chinese classical
+international, brazilian traditions
+brazilian traditions, bossa nova
+brazilian traditions, brazilian pop
+brazilian traditions, samba
+brazilian traditions, mpb
+brazilian traditions, carnival
+brazilian traditions, afoxe
+brazilian traditions, afro-brazilian
+brazilian traditions, tropicalia
+brazilian traditions, axe
+brazilian traditions, forro
+brazilian traditions, brazilian folk
+international, mediterranean traditions
+mediterranean traditions, cretan
+mediterranean traditions, greek-pop
+mediterranean traditions, sardinian
+mediterranean traditions, laika
+mediterranean traditions, greek
+mediterranean traditions, dimotiko
+mediterranean traditions, greek folk
+mediterranean traditions, nissiotiko
+mediterranean traditions, rembetika
+ALL_MUSIC, blues
+blues, country blues
+country blues, folk-blues
+country blues, blues gospel
+country blues, memphis blues
+country blues, blues revival
+country blues, vaudeville blues
+country blues, pre-war country blues
+country blues, pre-war gospel blues
+country blues, songster
+country blues, work songs
+blues, harmonica blues
+blues, modern acoustic blues
+blues, texas blues
+texas blues, electric texas blues
+texas blues, acoustic texas blues
+texas blues, modern electric texas blues
+blues, electric blues
+electric blues, electric harmonica blues
+electric blues, swamp blues
+electric blues, electric country blues
+electric blues, electric memphis blues
+electric blues, juke joint blues
+electric blues, urban blues
+electric blues, slide guitar blues
+electric blues, detroit blues
+electric blues, soul-blues
+blues, early acoustic blues
+early acoustic blues, traditional blues
+early acoustic blues, dirty blues
+early acoustic blues, early american blues
+early acoustic blues, pre-war blues
+early acoustic blues, regional blues
+early acoustic blues, acoustic blues
+early acoustic blues, piedmont blues
+early acoustic blues, classic blues vocals
+early acoustic blues, classic female blues
+early acoustic blues, acoustic memphis blues
+blues, chicago blues
+chicago blues, electric chicago blues
+chicago blues, modern electric chicago blues
+chicago blues, acoustic chicago blues
+blues, jump blues/piano blues
+jump blues/piano blues, west coast blues
+jump blues/piano blues, jump blues
+jump blues/piano blues, jazz blues
+jump blues/piano blues, piano blues
+jump blues/piano blues, st. louis blues
+blues, east coast blues
+east coast blues, new york blues
+blues, louisiana blues
+louisiana blues, acoustic new orleans blues
+louisiana blues, new orleans blues
+louisiana blues, acoustic louisiana blues
+blues, delta blues
+delta blues, electric delta blues
+delta blues, modern delta blues
+delta blues, finger-picked guitar
+blues, modern electric blues
+modern electric blues, contemporary blues
+modern electric blues, modern blues
+ALL_MUSIC, holiday
+holiday, carols
+holiday, halloween
+holiday, thanksgiving
+holiday, holidays
+holiday, chanukah
+holiday, easter
+holiday, christmas
+ALL_MUSIC, religious
+religious, ccm/contemporary gospel
+ccm/contemporary gospel, christian rap
+ccm/contemporary gospel, christian rock
+ccm/contemporary gospel, lds music
+ccm/contemporary gospel, contemporary gospel
+ccm/contemporary gospel, alternative ccm
+ccm/contemporary gospel, reggae gospel
+ccm/contemporary gospel, christian metal
+ccm/contemporary gospel, ccm
+ccm/contemporary gospel, jesus rock
+ccm/contemporary gospel, inspirational
+ccm/contemporary gospel, praise & worship
+ccm/contemporary gospel, contemporary christian
+ccm/contemporary gospel, latin ccm
+ccm/contemporary gospel, latin gospel
+ccm/contemporary gospel, christian punk
+religious, traditional gospel
+traditional gospel, scriptures
+traditional gospel, black gospel
+traditional gospel, sacred traditions
+traditional gospel, instrumental gospel
+traditional gospel, gospel choir
+traditional gospel, southern gospel
+traditional gospel, gospel
+traditional gospel, hymns
+ALL_MUSIC, folk
+folk, contemporary folk
+contemporary folk, neo-traditional folk
+contemporary folk, anti-folk
+contemporary folk, progressive folk
+contemporary folk, new acoustic
+contemporary folk, alternative folk
+contemporary folk, political folk
+contemporary folk, folk jazz
+contemporary folk, urban folk
+folk, traditional folk
+traditional folk, irish folk
+traditional folk, folksongs
+traditional folk, appalachian
+traditional folk, field recordings
+traditional folk, british folk
+traditional folk, protest songs
+traditional folk, traditional scottish folk
+traditional folk, sea shanties
+traditional folk, folk revival
+traditional folk, minstrel

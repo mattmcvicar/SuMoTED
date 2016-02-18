@@ -1,0 +1,251 @@
+ALL_MUSIC,rock
+ALL_MUSIC,pop
+ALL_MUSIC,blues
+ALL_MUSIC,electronic
+ALL_MUSIC,jazz
+world,latin
+ALL_MUSIC,classical
+other,comedy
+ALL_MUSIC,reggae
+ALL_MUSIC,country
+ALL_MUSIC,other
+ALL_MUSIC,r&b
+ALL_MUSIC,chillout
+ALL_MUSIC,disco
+ALL_MUSIC,funk
+ALL_MUSIC,folk
+ALL_MUSIC,metal
+ALL_MUSIC,christian
+latin,salsa
+latin,samba
+r&b,soul
+electronic,edm
+christian,christian rap
+christian,christian rock
+jazz,nu-jazz
+rock,post rock
+rock,punk rock
+rock,psychedelic rock
+rock,prog rock
+edm,house
+house,progressive house
+metal,progressive metal
+world,indian
+world,irish
+irish,irish traditional
+country,alt.country
+metal,alternative metal
+rock,alternative rock
+indian,bollywood
+latin,bossa nova
+world,brazilian
+other,covers
+house,disco house
+world,flamenco
+rock,folk rock
+jazz,latin jazz
+rock,modern rock
+classical,opera
+classical,orchestral
+rock,punk
+punk,post punk
+punk,hardcore
+hardcore,post hardcore
+death metal,melodic death metal
+metal,melodic metal
+rock,melodic rock
+metal,metalcore
+rock,rock n roll
+rock n roll,rockabilly
+world,roots music
+world,scottish
+rock,soft rock
+jazz,smooth jazz
+jazz,vocal jazz
+ALL_MUSIC,world
+christian,worship
+world,african
+african,afro
+afro,afro beat
+afro,afro pop
+afro,afrobeat
+other,adult contemporary
+classical,baroque
+rock,classic rock
+other,easy listening
+rock,emo
+electronic,electronica
+other,experimental
+other,film
+other,fusion
+rap,gangsta rap
+world,gypsy
+other,instrumental
+classical,lyrical
+classical,piano
+pop,pop punk
+pop,pop rock
+metal,power metal
+pop,power pop
+latin,reggaeton
+pop,synthpop
+metal,heavy
+metal,heavy metal
+ALL_MUSIC,hip hop
+hip hop,rap
+other,indie
+indie,indie pop
+rock,indie rock
+world,celtic
+metal,doom
+metal,doom metal
+metal,death metal
+electronic,electro
+house,electro house
+pop,electro pop
+hip hop,garage
+rock,garage rock
+rock,glam rock
+rock,goth
+rock,gothic
+rock,gothic rock
+edm,funky
+funky,funky breaks
+house,funky house
+electronic,groove
+metal,groove metal
+electronic,electroacoustic
+christian,contemporary christian
+rock,country rock
+instrumental,guitar
+rap,hardcore rap
+rock,hard rock
+world,uk
+funky,uk funky
+hardcore,uk hardcore
+hip hop,uk hip hop
+rap,uk rap
+other,underground
+other,urban
+other,vocal
+edm,tech
+house,tech house
+edm,techno
+other,traditional
+electronic,dj
+dj,turntablism
+heavy metal,djent
+electronic,dnb
+easy listening,lounge
+electronic,downtempo
+reggae,ragga
+vocal,singer
+songwriter,singer songwriter
+other,songwriter
+rock,southern rock
+rock,space rock
+electronic,trip hop
+world,tropical
+hip hop,trap
+edm,trance
+metal,thrash
+classical,symphonic
+jazz,swing
+rock,stoner rock
+christian,gospel
+christian,spiritual
+other,spoken word
+latin,soca
+pop,surf
+indian,bhangra
+rock,brit pop
+house,deep house
+guitar,classical guitar
+rock,blues rock
+metal,black metal
+vocal,a cappella
+other,acoustic
+pop,acoustic pop
+pop,acoustic rock
+chillout,ambient
+jazz,big band
+country,bluegrass
+bass,crunk
+hip hop,bass
+house,bassline house
+electronic,ebm
+edm,freestyle
+reggae,dub
+electronic,dubstep
+hip hop,dirty
+hip hop,dirty south
+death metal,deathcore
+electronic,glitch
+electronic,glitch hop
+instrumental,brass band
+soul,soulful
+house,soulful house
+doom metal,sludge
+rock,sleaze
+rock,ska
+rock,shoegaze
+emo,screamo
+electronic,remix
+electronic,psytrance
+rockabilly,psychobilly
+other,psychedelia
+other,psychedelic
+other,producer
+vocal,poetry
+other,party
+other,oldies
+other,old school
+other,noise
+rock,new wave
+chillout,new age
+soul,neo soul
+other,musical theatre
+soul,motown
+other,modern
+other,minimalist
+other,minimal
+techno,minimal techno
+other,melodic
+other,mod
+rap,mc
+other,lo-fi
+electronic,jungle
+other,jam band
+other,jam
+chillout,inspirational
+experimental,industrial
+electronic,idm
+hip hop,horrorcore
+electronic,hardstyle
+trance,hard trance
+hard dance,happy hardcore
+edm,hard dance
+house,hard house
+rock,grunge
+metal,grindcore
+hip hop,grime
+new wave,darkwave
+other,dark
+world,dancehall
+other,contemporary
+edm,club
+chillout,chill
+irish,ceilidh
+other,cabaret
+electronic,broken beat
+edm,breakcore
+electronic,breakbeat
+electronic,big beat
+rock,beat
+dancehall,bashment
+vocal,ballad
+chillout,atmospheric
+country,americana
+house,acid
+hip hop,4x4
+garage,2 step

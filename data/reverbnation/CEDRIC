@@ -1,0 +1,251 @@
+ALL_MUSIC,world
+world,tropical
+world,brazilian
+world,african
+world,celtic
+world,flamenco
+world,latin
+latin,salsa
+jazz, latin jazz
+world,traditional
+world,ragga
+world,ska
+world,scottish
+world,gypsy
+world,reggae
+reggae,dub
+reggae,reggaeton
+world,roots music
+roots music,americana
+world,irish
+traditional,irish traditional
+brazilian,bossa nova
+brazilian,samba
+ALL_MUSIC,jazz
+jazz,nu-jazz
+jazz,vocal jazz
+jazz,smooth jazz
+ALL_MUSIC,classical
+classical,baroque
+classical,lyrical
+classical,orchestral
+classical,opera
+world,indian
+indian,bhangra
+indian,bollywood
+ALL_MUSIC,a cappella
+a cappella,spoken word
+spoken word,poetry
+a cappella,vocal
+ALL_MUSIC,electronica
+ALL_MUSIC,electro
+electro,trance
+trance,psytrance
+electro,electro house
+electro,electro pop
+electro,electroacoustic
+electronica,electronic
+electronica,minimalist
+electro,minimal
+electro,minimal techno
+electronica,trip hop
+electronica,ambient
+electronica,acid
+electronica,edm
+electronica,tech
+electronica,tech house
+electronica,techno
+electronica,chill
+electronica,chillout
+chillout,downtempo
+electronica,progressive house
+edm,hardcore
+edm,idm
+edm,ebm
+edm,happy hardcore
+edm,hard dance
+edm,hard house
+trance,hard trance
+edm,hardcore rap
+garage,2 step
+garage,4x4
+electronica,beat
+edm,deep house
+edm,bass
+bass,garage
+bass,dnb
+bass,dubstep
+bass,bassline house
+trance,atmospheric
+edm,dancehall
+ALL_MUSIC,rock
+rock,alternative rock
+rock,rock n roll
+rock,rockabilly
+rock,acoustic rock
+rock,christian rock
+rock,classic rock
+rock,country rock
+rock,alternative metal
+rock,garage rock
+rock,glam rock
+rock,folk rock
+rock,modern rock
+rock,pop rock
+rock,post rock
+rock,gothic rock
+rock,soft rock
+rock,southern rock
+rock,space rock
+rock,hard rock
+rock,indie rock
+rock,punk
+rock,punk rock
+rock,prog rock
+rock,melodic rock
+rock,blues rock
+rock,psychedelic
+rock,psychedelic rock
+rock,stoner rock
+metal,melodic death metal
+metal,melodic metal
+rock,metal
+metal,metalcore
+metal,progressive metal
+metal,death metal
+metal,doom
+metal,doom metal
+metal,groove metal
+metal,heavy metal
+metal,emo
+metal,power metal
+metal,heavy
+metal,industrial
+hard rock,black metal
+world,afro
+afro,afro beat
+afro,afro pop
+afro,afrobeat
+rock,indie
+pop,indie pop
+ALL_MUSIC,ballad
+roots music,folk
+folk,country
+country,bluegrass
+country,alt.country
+ALL_MUSIC,acoustic
+acoustic,acoustic pop
+acoustic,blues
+acoustic,guitar
+acoustic,classical guitar
+ALL_MUSIC,instrumental
+instrumental,piano
+ALL_MUSIC,worship
+worship,christian
+worship,christian rap
+worship,spiritual
+worship,gospel
+worship,contemporary christian
+worship,inspirational
+ALL_MUSIC,musical theatre
+musical theatre,cabaret
+edm,club
+ALL_MUSIC,pop
+pop,pop punk
+pop,adult contemporary
+pop,contemporary
+pop,brit pop
+electro,dark
+electro,darkwave
+ALL_MUSIC,other
+other,comedy
+other,experimental
+other,film
+other,covers
+ALL_MUSIC,jam
+jam,bashment
+jazz,big band
+electronica,big beat
+electronica,breakbeat
+jazz,brass band
+edm,breakcore
+electronica,broken beat
+irish,ceilidh
+hip hop,crunk
+metal,deathcore
+electronica,dirty
+dirty,dirty south
+club,disco
+disco,disco house
+club,dj
+club,djent
+pop,easy listening
+bass,freestyle
+ALL_MUSIC,r&b
+r&b,funk
+funk,funky
+funk,funky breaks
+funk,funky house
+jazz,fusion
+rap,gangsta rap
+electronica,glitch
+glitch,glitch hop
+rock,goth
+goth,gothic
+garage,grime
+edm,grindcore
+funk,groove
+punk,grunge
+dubstep,hardstyle
+r&b,hip hop
+hip hop,horrorcore
+edm,house
+jam,jam band
+dnb,jungle
+indie,lo-fi
+easy listening,lounge
+other,mc
+other,melodic
+rock,mod
+rock,modern
+soul,motown
+soul,neo soul
+rock,new age
+punk,new wave
+rock,noise
+blues,old school
+blues,oldies
+edm,party
+hardcore,post hardcore
+rock,post punk
+pop,power pop
+other,producer
+rock,psychedelia
+punk,psychobilly
+r&b,rap
+edm,remix
+emo,screamo
+rock,shoegaze
+pop,singer
+pop,singer songwriter
+rock,sleaze
+metal,sludge
+world,soca
+pop,songwriter
+r&b,soul
+soul,soulful
+soul,soulful house
+world,surf
+jazz,swing
+classical,symphonic
+pop,synthpop
+metal,thrash
+edm,trap
+dj,turntablism
+world,uk
+funk,uk funky
+hardcore,uk hardcore
+hip hop,uk hip hop
+rap,uk rap
+rock,underground
+rap,urban

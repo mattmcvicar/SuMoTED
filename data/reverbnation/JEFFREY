@@ -1,0 +1,251 @@
+ALL_MUSIC,pop
+ALL_MUSIC,rock
+pop,acoustic
+rock,pop rock
+rock,modern rock
+rock,jam
+rock,jam band
+pop,acoustic pop
+rock,acoustic rock
+pop,afro pop
+pop,brit pop
+pop,electro pop
+pop,synthpop
+punk rock,pop punk
+pop,power pop
+rock,alternative rock
+rock,blues rock
+rock,christian rock
+rock,classic rock
+pop,country
+rock,country rock
+country,bluegrass
+pop,alt.country
+rock,folk rock
+rock,garage rock
+rock,glam rock
+rock,gothic rock
+rock,gothic
+rock,hard rock
+rock,indie rock
+rock,indie
+pop,indie pop
+rock,melodic rock
+rock,metal
+metal,melodic
+metal,melodic metal
+metal,heavy metal
+metal,alternative metal
+metal,progressive metal
+rock,prog rock
+rock,space rock
+rock,psychedelic rock
+rock,psychedelia
+rock,psychedelic
+rock,psychobilly
+rock,punk rock
+rock,punk
+punk rock,hardcore
+punk rock,post hardcore
+punk rock,post punk
+rock,soft rock
+rock,stoner rock
+pop,beat
+pop,adult contemporary
+pop,ballad
+pop,disco
+pop,disco house
+pop,easy listening
+pop,lounge
+rock,emo
+emo,screamo
+rock,shoegaze
+rock,goth
+rock,grunge
+rock,industrial
+rock,oldies
+rock,sleaze
+rock,surf
+metal,metalcore
+metal,death metal
+metal,melodic death metal
+metal,black metal
+metal,doom metal
+metal,doom
+metal,groove metal
+metal,power metal
+metal,djent
+metal,grindcore
+metal,lo-fi
+metal,sludge
+metal,thrash
+death metal,deathcore
+rock,post rock
+rock,americana
+rock,southern rock
+ALL_MUSIC,rock n roll
+rock n roll,rockabilly
+rock n roll,swing
+ALL_MUSIC,jazz
+jazz,big band
+jazz,latin jazz
+jazz,smooth jazz
+jazz,vocal jazz
+jazz,fusion
+ALL_MUSIC,electronica
+electronica,electro
+electronica,electronic
+electronica,electroacoustic
+electronica,nu-jazz
+electronica,garage
+garage,4x4
+garage,grime
+electronica,uk funky
+electronica,edm
+electronica,big beat
+electronica,acid
+electronica,ambient
+electronica,atmospheric
+electronica,bass
+electronica,bassline house
+electronica,breakbeat
+electronica,broken beat
+electronica,chill
+electronica,downtempo
+electronica,chillout
+electronica,new wave
+electronica,darkwave
+electronica,deep house
+electronica,soulful house
+electronica,soulful
+electronica,dnb
+electronica,jungle
+electronica,new age
+electronica,freestyle
+electronica,funky house
+electronica,glitch hop
+electronica,glitch
+electronica,mod
+electronica,tech house
+electronica,tech
+electronica,trap
+electronica,trip hop
+new age,ebm
+edm,club
+edm,2 step
+edm,breakcore
+edm,dubstep
+edm,dub
+edm,electro house
+edm,hard dance
+edm,hard house
+edm,happy hardcore
+edm,hard trance
+edm,hardstyle
+edm,house
+edm,idm
+edm,minimal techno
+edm,progressive house
+edm,psytrance
+edm,techno
+edm,trance
+edm,uk hardcore
+ALL_MUSIC,experimental
+experimental,noise
+ALL_MUSIC,spoken word
+spoken word,poetry
+ALL_MUSIC,christian
+christian,contemporary christian
+christian,inspirational
+ALL_MUSIC,world
+world,bhangra
+world,flamenco
+world,gypsy
+world,indian
+indian,bollywood
+indian,soca
+world,folk
+folk,ceilidh
+folk,celtic
+folk,irish
+irish,irish traditional
+folk,scottish
+ALL_MUSIC,afro
+afro,afrobeat
+afro,afro beat
+ALL_MUSIC,african
+ALL_MUSIC,hip hop
+hip hop,christian rap
+hip hop,rap
+hip hop,horrorcore
+hip hop,crunk
+hip hop,dirty south
+hip hop,dirty
+hip hop,gangsta rap
+hip hop,hardcore rap
+hip hop,uk hip hop
+hip hop,uk rap
+ALL_MUSIC,reggae
+reggae,dancehall
+reggae,reggaeton
+reggae,roots music
+reggae,ragga
+ALL_MUSIC,ska
+ALL_MUSIC,r&b
+ALL_MUSIC,brass band
+ALL_MUSIC,classical
+classical,baroque
+classical,contemporary
+classical,minimalist
+classical,minimal
+classical,opera
+classical,orchestral
+classical,symphonic
+ALL_MUSIC,latin
+latin,brazilian
+latin,salsa
+latin,tropical
+brazilian,samba
+brazilian,bossa nova
+ALL_MUSIC,bashment
+ALL_MUSIC,blues
+ALL_MUSIC,funk
+funk,funky breaks
+funk,funky
+ALL_MUSIC,instrumental
+instrumental,piano
+instrumental,guitar
+instrumental,classical guitar
+ALL_MUSIC,soul
+soul,motown
+soul,neo soul
+ALL_MUSIC,a cappella
+ALL_MUSIC,lyrical
+ALL_MUSIC,cabaret
+ALL_MUSIC,singer songwriter
+ALL_MUSIC,songwriter
+ALL_MUSIC,gospel
+ALL_MUSIC,spiritual
+ALL_MUSIC,vocal
+ALL_MUSIC,worship
+ALL_MUSIC,comedy
+ALL_MUSIC,covers
+ALL_MUSIC,dark
+ALL_MUSIC,film
+ALL_MUSIC,groove
+ALL_MUSIC,heavy
+ALL_MUSIC,mc
+ALL_MUSIC,dj
+ALL_MUSIC,modern
+ALL_MUSIC,musical theatre
+ALL_MUSIC,old school
+ALL_MUSIC,other
+ALL_MUSIC,party
+ALL_MUSIC,producer
+ALL_MUSIC,remix
+ALL_MUSIC,singer
+ALL_MUSIC,traditional
+ALL_MUSIC,turntablism
+ALL_MUSIC,uk
+ALL_MUSIC,underground
+ALL_MUSIC,urban

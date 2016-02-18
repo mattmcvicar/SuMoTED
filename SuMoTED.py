@@ -2,26 +2,6 @@ import sys
 import numpy as np
 
 
-def open_tree(path, genre_codes):
-
-    # Make into matrix
-    n = len(genre_codes)
-    M = np.zeros((n, n), dtype=int)
-
-    for line in open(path, 'r'):
-        if line[0] == '#':
-            continue
-        if len(line.strip()) == 0:
-            continue
-
-        parent, child = line.split(',')
-        parent, child = parent.strip(), child.strip()
-
-        M[genre_codes[parent], genre_codes[child]] = 1
-
-    return M
-
-
 def is_tree(A, genres, filename):
     n = A.shape[0]
     if sorted(np.sum(A, axis=0)) == [0] + [1]*(n-1):
@@ -38,19 +18,11 @@ def is_tree(A, genres, filename):
 
         raise ValueError(filename + " is not a tree")
 
-
-
 def distance(T1, T2):
 
     # check shape
     assert T1.shape == T2.shape
     n = T1.shape[0]
-
-    # for the paper I wanted to know the maximum depth
-    # parents = get_parents(T1, n)
-    # ancestors = get_ancestors(parents, n)
-    # maxdepth = max([len(b) for a, b in ancestors.items()])
-    # print maxdepth
 
     # make transitive closures
     T1trans = make_transitive_closure(T1, n)
@@ -110,7 +82,6 @@ def dag_to_tree(dag):
         if len(x) > 1:
             print '    - warning: found two possible trees: choosing one arbitrarily'
         x = x[-1]
-        #x = [a for a in ancestors[y] if depths[a] == d - 1][0]
 
         # 4. draw an edge twixt root and y
         T[x, y] = 1
@@ -204,7 +175,6 @@ def tree_files_to_adjacency_matrices(tree_files):
             union = file_genres[i].union(file_genres[j])
             Jaccard[i,j] = (len(intersection) / float(len(union)))
 
-    print 
     # now get all genres
     genres = set()
     for f in file_genres:
@@ -213,9 +183,9 @@ def tree_files_to_adjacency_matrices(tree_files):
     genres = sorted(list(genres))
     n_genres = len(genres)
 
-    #root_index = genres.index("ALL_MUSIC")
     # Now go though again, building adjacency matrices
     As = []
+    root_index = None
     for tree_file in tree_files:
         A = np.zeros((n_genres, n_genres), dtype=int)
         for line in open(tree_file, 'r'):
@@ -227,7 +197,7 @@ def tree_files_to_adjacency_matrices(tree_files):
 
             A[genres.index(parent), genres.index(child)] = 1
 
-        root_index = tree_to_root(A)
+        root_index = tree_to_root(A, root_index)
 
         # Post-processing: any row which is empty needs to be filled in
         # as a parent of the root
@@ -244,9 +214,22 @@ def tree_files_to_adjacency_matrices(tree_files):
 
     return As, root_index, Jaccard, genres
 
-def tree_to_root(A):
+def tree_to_root(A, root=None):
     roots = np.argwhere(np.sum(A, axis=0) == 0).reshape((-1,))
-    assert len(roots) == 1
+    
+    # do a few sanity checks. Need a single root
+    if len(roots) > 1:
+        raise ValueError("Tree has multiple roots")
+
+    # if root is unset, set    
+    if root == None:
+        return roots[0]
+
+    # if root is set but doesn't match
+    if roots[0] != root:
+        raise ValueError("Trees have different roots")
+    
+    # else it's ok
     return roots[0]
 
 
@@ -291,7 +274,7 @@ def die_with_usage():
 if __name__ == "__main__":
 
     import sys, os
-    if len(sys.argv) - 1 < 1:
+    if len(sys.argv) - 1 != 1:
         die_with_usage()
 
     # find all the trees in the input directory
@@ -300,10 +283,11 @@ if __name__ == "__main__":
     tree_dir = sys.argv[1]
     tree_files, n_trees = find_all_trees(tree_dir)
 
-    # turn into adjacency matrices (this will also add nodes
-    # if necessary)
+    # read in trees and store as adjacency matrices. This also
+    # pulls out the root index, stores the label names and 
+    # computes the Jaccard similarity between the trees
     print '  building adjacency matrices...'
-    trees, root_index, Jaccard, genres = tree_files_to_adjacency_matrices(
+    trees, root_index, Jaccard, labels = tree_files_to_adjacency_matrices(
         tree_files)
 
     # make bush (for normalisation)
@@ -317,14 +301,12 @@ if __name__ == "__main__":
     Dmat_norm = np.ones((n_trees, n_trees))
 
     # initialise intersection
-    I = np.ones((tree_size, tree_size), dtype=int)
     for it1 in range(n_trees):
-        # compute bush distance here
+        # compute bush distance here. We don't need
+        # the transitive closures
         t1_bush_dist, _, _ = distance(trees[it1], bush)
 
         for it2 in range(it1 + 1, n_trees):
-
-            # print progress
             print "  computing distance between", tree_files[it1], 'and', tree_files[it2]
 
             # as above
@@ -333,9 +315,6 @@ if __name__ == "__main__":
             # main distance
             Dmat[it1, it2], transT1, transT2 = distance(
                 trees[it1], trees[it2])
-
-            I = np.logical_and(I, transT1, dtype=int)
-            I = np.logical_and(I, transT2, dtype=int)
 
             # check if norm can be computed
             norm = t1_bush_dist + t2_bush_dist

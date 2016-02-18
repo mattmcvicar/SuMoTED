@@ -2,32 +2,34 @@ import sys
 import numpy as np
 
 def find_all_trees(input_dir):
-
-    # find all tree files
+    # find all tree files in input_dir
     tree_files = os.listdir(input_dir)
     tree_files = [os.path.join(input_dir, t) for t in tree_files if t != '.DS_Store']
     n_trees = len(tree_files)
     return tree_files, n_trees
 
 
-def is_tree(A, genres, filename):
+def is_tree(A, labels, filename):
+    # a debugging function, which checks that the input
+    # is a tree. Outputs bad labels
     n = A.shape[0]
     if sorted(np.sum(A, axis=0)) == [0] + [1]*(n-1):
         return True
     else:
         # print orphans
         for orphan in np.argwhere(np.sum(A, axis=0) == 0).reshape((-1,)):
-            print genres[orphan], 'is an orphan'
+            print labels[orphan], 'is an orphan'
 
         # print multiple parents
         for multi_parent in np.argwhere(np.sum(A, axis=0) > 1).reshape((-1,)):
-            parents = [genres[g] for g in np.argwhere(A[    :, multi_parent]).reshape((-1,))]
-            print genres[multi_parent], 'has multiple parents:',', '.join(parents)
+            parents = [labels[g] for g in np.argwhere(A[    :, multi_parent]).reshape((-1,))]
+            print labels[multi_parent], 'has multiple parents:',', '.join(parents)
 
         raise ValueError(filename + " is not a tree")
 
 def distance(T1, T2):
 
+    # main high-level function for computing the distance.
     # check shape
     assert T1.shape == T2.shape
     n = T1.shape[0]
@@ -47,8 +49,8 @@ def distance(T1, T2):
     s2 = np.sum(T2trans) - np.sum(np.logical_and(T2trans, Itrans))
     D = s1 + s2
 
-    # normalisation
-    return D, T1trans, T2trans
+    # return the distance
+    return D
 
 
 def dag_to_tree(dag):
@@ -88,7 +90,7 @@ def dag_to_tree(dag):
         # 3. find any ancestor with depth = d - 1: any will do
         x = [a for a in ancestors[y] if depths[a] == d - 1]
         if len(x) > 1:
-            print '    - warning: found two possible trees: choosing one arbitrarily'
+            print '    - warning: found two possible spanning trees: choosing one arbitrarily'
         x = x[-1]
 
         # 4. draw an edge twixt root and y
@@ -141,7 +143,7 @@ def get_parents(M, n):
 
 
 def make_bush(n, root_index):
-
+    # makes a bush of size n
     bush = np.zeros((n, n), dtype=int)
     bush[root_index, :] = 1
     bush[root_index, root_index] = 0
@@ -149,6 +151,7 @@ def make_bush(n, root_index):
 
 
 def read_tree(tree_file):
+    # read tree file and compute label set
     labels = set()
     T = []
     for line in open(tree_file, 'r'):
@@ -176,7 +179,7 @@ def label_jaccard(labels):
     return Jaccard
 
 def add_missing_nodes(A, root_index):
-    # find empty rows
+    # find empty rows and add in nodes if needed
     to_insert = np.argwhere(np.sum(A, axis=0) == 0).reshape((-1,))
     if len(to_insert) > 1:
         print '    - warning: adding ' + str(len(to_insert)) + ' nodes to ' + tree_file
@@ -185,20 +188,22 @@ def add_missing_nodes(A, root_index):
             A[root_index, root] = 1
     return A
 
+
 def tree_files_to_adjacency_matrices(tree_files):
 
     # first get the label set for each tree
-    tree_labels = []
+    tree_label_sets, tree_labels = [], []
     for tree_file in tree_files:
-        _, l = read_tree(tree_file)
-        tree_labels.append(l)
+        t, l = read_tree(tree_file)
+        tree_labels.append(t)
+        tree_label_sets.append(l)
 
     # so that we can compute the jaccard overlap
-    Jaccard = label_jaccard(tree_labels)
+    Jaccard = label_jaccard(tree_label_sets)
 
     # now get all genres
     complete_labels = set()
-    for l in tree_labels:
+    for l in tree_label_sets:
         complete_labels = complete_labels.union(l)
 
     # convert to a list so we can index
@@ -206,15 +211,13 @@ def tree_files_to_adjacency_matrices(tree_files):
     n_labels = len(complete_labels)
 
     # Now go though the files again, building adjacency 
-    # matrices indexed by complete_labels
+    # matrices indexed by complete_labels. Initialise
+    # the root index to be None
     As = []
     root_index = None
-    for tree_file in tree_files:
+    for T in tree_labels:
         # Adjacency matrix for this tree
         A = np.zeros((n_labels, n_labels), dtype=int)
-
-        # read in tree
-        T, _ = read_tree(tree_file)
 
         # convert parent, child labels to indices
         for parent_child in T:
@@ -224,7 +227,7 @@ def tree_files_to_adjacency_matrices(tree_files):
         # get/set root index
         root_index = tree_to_root(A, root_index)
 
-        # Post-processing: 
+        # Post-processing: add in any missing nodes
         A = add_missing_nodes(A, root_index)
 
         # check A is a tree (and report if not), store
@@ -234,6 +237,8 @@ def tree_files_to_adjacency_matrices(tree_files):
     return As, root_index, Jaccard, complete_labels
 
 def tree_to_root(A, root=None):
+    # gets the root of a tree from the adjacency matrix, and
+    # does some checks
     roots = np.argwhere(np.sum(A, axis=0) == 0).reshape((-1,))
     
     # do a few sanity checks. Need a single root
@@ -306,8 +311,7 @@ if __name__ == "__main__":
     # pulls out the root index, stores the label names and 
     # computes the Jaccard similarity between the trees
     print '  building adjacency matrices...'
-    trees, root_index, Jaccard, labels = tree_files_to_adjacency_matrices(
-        tree_files)
+    trees, root_index, Jaccard, labels = tree_files_to_adjacency_matrices(tree_files)
 
     # make bush (for normalisation)
     print '  making bush (for normalisation)...'
@@ -323,17 +327,16 @@ if __name__ == "__main__":
     for it1 in range(n_trees):
         # compute bush distance here. We don't need
         # the transitive closures
-        t1_bush_dist, _, _ = distance(trees[it1], bush)
+        t1_bush_dist = distance(trees[it1], bush)
 
         for it2 in range(it1 + 1, n_trees):
             print "  computing distance between", tree_files[it1], 'and', tree_files[it2]
 
             # as above
-            t2_bush_dist, _, _ = distance(trees[it2], bush)
+            t2_bush_dist = distance(trees[it2], bush)
 
             # main distance
-            Dmat[it1, it2], transT1, transT2 = distance(
-                trees[it1], trees[it2])
+            Dmat[it1, it2] = distance(trees[it1], trees[it2])
 
             # check if norm can be computed
             norm = t1_bush_dist + t2_bush_dist

@@ -1,5 +1,7 @@
 import sys
 import numpy as np
+import os
+
 
 def find_all_trees(input_dir):
     # find all tree files in input_dir
@@ -13,7 +15,7 @@ def is_tree(A, labels, filename):
     # a debugging function, which checks that the input
     # is a tree. Outputs bad labels
     n = A.shape[0]
-    if sorted(np.sum(A, axis=0)) == [0] + [1]*(n-1):
+    if sorted(np.sum(A, axis=0)) == [0] + [1] * (n - 1):
         return True
     else:
         # print orphans
@@ -22,10 +24,11 @@ def is_tree(A, labels, filename):
 
         # print multiple parents
         for multi_parent in np.argwhere(np.sum(A, axis=0) > 1).reshape((-1,)):
-            parents = [labels[g] for g in np.argwhere(A[    :, multi_parent]).reshape((-1,))]
-            print labels[multi_parent], 'has multiple parents:',', '.join(parents)
+            parents = [labels[g] for g in np.argwhere(A[:, multi_parent]).reshape((-1,))]
+            print labels[multi_parent], 'has multiple parents:', ', '.join(parents)
 
         raise ValueError(filename + " is not a tree")
+
 
 def distance(T1, T2):
 
@@ -77,7 +80,7 @@ def dag_to_tree(dag):
 
     # get initial root
     x = get_root(dag, [], n)
-    ignore, depths = [x], {x : 1}
+    ignore, depths = [x], {x: 1}
     T = np.zeros((n, n), dtype=int)
     while len(ignore) < n:
 
@@ -165,20 +168,22 @@ def read_tree(tree_file):
         labels.add(child)
 
     return T, labels
-    
+
+
 def label_jaccard(labels):
     # compute the label jaccard
     n_trees = len(labels)
     Jaccard = np.zeros((n_trees, n_trees))
     for i in range(n_trees):
-        for j in range(i+1, n_trees):
+        for j in range(i + 1, n_trees):
             intersection = labels[i].intersection(labels[j])
             union = labels[i].union(labels[j])
-            Jaccard[i,j] = (len(intersection) / float(len(union)))
+            Jaccard[i, j] = (len(intersection) / float(len(union)))
 
     return Jaccard
 
-def add_missing_nodes(A, root_index):
+
+def add_missing_nodes(A, root_index, tree_file):
     # find empty rows and add in nodes if needed
     to_insert = np.argwhere(np.sum(A, axis=0) == 0).reshape((-1,))
     if len(to_insert) > 1:
@@ -210,25 +215,25 @@ def tree_files_to_adjacency_matrices(tree_files):
     complete_labels = sorted(list(complete_labels))
     n_labels = len(complete_labels)
 
-    # Now go though the files again, building adjacency 
+    # Now go though the files again, building adjacency
     # matrices indexed by complete_labels. Initialise
     # the root index to be None
     As = []
     root_index = None
-    for T in tree_labels:
+    for T, tree_file in zip(tree_labels, tree_files):
         # Adjacency matrix for this tree
         A = np.zeros((n_labels, n_labels), dtype=int)
 
         # convert parent, child labels to indices
         for parent_child in T:
-            parent, child = parent_child      
+            parent, child = parent_child
             A[complete_labels.index(parent), complete_labels.index(child)] = 1
 
         # get/set root index
         root_index = tree_to_root(A, root_index)
 
         # Post-processing: add in any missing nodes
-        A = add_missing_nodes(A, root_index)
+        A = add_missing_nodes(A, root_index, tree_file)
 
         # check A is a tree (and report if not), store
         is_tree(A, complete_labels, tree_file)
@@ -236,23 +241,24 @@ def tree_files_to_adjacency_matrices(tree_files):
 
     return As, root_index, Jaccard, complete_labels
 
+
 def tree_to_root(A, root=None):
     # gets the root of a tree from the adjacency matrix, and
     # does some checks
     roots = np.argwhere(np.sum(A, axis=0) == 0).reshape((-1,))
-    
+
     # do a few sanity checks. Need a single root
     if len(roots) > 1:
         raise ValueError("Tree has multiple roots")
 
-    # if root is unset, set    
-    if root == None:
+    # if root is unset, set
+    if root is None:
         return roots[0]
 
     # if root is set but doesn't match
     if roots[0] != root:
         raise ValueError("Trees have different roots")
-    
+
     # else it's ok
     return roots[0]
 
@@ -270,7 +276,7 @@ def die_with_usage():
     here directory is a path to a directory of trees. Trees should be specified
     in a file listing (parent, child) relationships. Trivial example found in /data/toy:
 
-                   A                       A 
+                   A                       A
                  /   \\                   /   \\
         T1  =   B     C       T2  =     D     C
                 |                             |
@@ -282,8 +288,8 @@ def die_with_usage():
        A, C          A, C
        B, D          C, B
 
-    (as it does). We can convert T1 to T2 with a local upward move of D to 
-    be a child of A (cost 1), then a local downward move of B to be a child of 
+    (as it does). We can convert T1 to T2 with a local upward move of D to
+    be a child of A (cost 1), then a local downward move of B to be a child of
     C (cost 1). Therefore, the un-normalised distance between T1 and T2 is 2, which
     is actually the maximal distance between trees with these nodes, so they
     have a normalised similarity = 0.0. This can be verified by running:
@@ -297,7 +303,6 @@ def die_with_usage():
 # Main -----------------------------------------------------------------------
 if __name__ == "__main__":
 
-    import sys, os
     if len(sys.argv) - 1 != 1:
         die_with_usage()
 
@@ -308,7 +313,7 @@ if __name__ == "__main__":
     tree_files, n_trees = find_all_trees(tree_dir)
 
     # read in trees and store as adjacency matrices. This also
-    # pulls out the root index, stores the label names and 
+    # pulls out the root index, stores the label names and
     # computes the Jaccard similarity between the trees
     print '  building adjacency matrices...'
     trees, root_index, Jaccard, labels = tree_files_to_adjacency_matrices(tree_files)
